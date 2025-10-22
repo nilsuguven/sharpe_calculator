@@ -47,7 +47,7 @@ int main (void) {
         printf("Yorum: Iyi performans.\n");
     else if (sharpe < 3.0)
         printf("Yorum: Cok iyi performans.\n");
-    else
+    else if (sharpe > 3.0)
         printf("Yorum: Mukemmel performans!\n");
 
     printf("-------------------------------------\n");
